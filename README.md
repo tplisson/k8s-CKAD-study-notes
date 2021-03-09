@@ -18,32 +18,32 @@ Updated exam curriculum for v1.20
 https://github.com/cncf/curriculum/
 
 
-**Domain**	| **Weight**
-------- | -------------
-**1. Core Concepts** | 13%
+**Domain**	| **Weight** |
+:------- | :-------------|
+**Core Concepts** | 13%
 • Understand Kubernetes API primitives |  
 • Create and configure basic Pods |  
-**2. Multi-Container Pods** | 10%  
-• Understand Multi-Container Pod design patterns (e .g. ambassador, adapter, sidecar) |  
-**3. Pod Design** | 20%
+**Multi-Container Pods** | 10%  
+• Understand Multi-Container Pod design patterns (e .g ambassador, adapter, sidecar) |  
+**Pod Design** | 20%
 • Understand Deployments and how to perform rolling updates |  
 • Understand Deployments and how to perform rollbacks |  
 • Understand Jobs and CronJobs |  
 • Understand how to use Labels, Selectors, and Annotations || 
-**4. State Persistence** | 8%  
+**State Persistence** | 8%  
 • Understand PersistentVolumeClaims for storage |  
-**5. Configuration** | 18%
+**Configuration** | 18%
 • Understand ConfigMaps |  
 • Understand SecurityContexts |  
 • Define an application’s resource requirements |  
 • Create & consume Secrets |  
 • Understand ServiceAccounts |  
-**6. Observability** |  18%
+**Observability** |  18%
 • Understand LivenessProbes and ReadinessProbes |  
 • Understand container logging |  
 • Understand how to monitor applications in Kubernetes |  
 • Understand debugging in Kubernetes |  
-**7. Services & Networking** |  13%
+**Services & Networking** |  13%
 • Understand Services |  
 • Demonstrate basic understanding of NetworkPolicies |  
 
@@ -77,7 +77,7 @@ by William Boyd
 - killer.sh_ 
   https://killer.sh/ckad
   - not free but worth it
-  - 29.99€ for 2 CKA sessions of the same mock exam  
+  - 29.99€ for two CKAD sessions of the same mock exam  
   
 - Dimitris-Ilias Gkanatsios  
 https://github.com/dgkanatsios/CKAD-exercises
