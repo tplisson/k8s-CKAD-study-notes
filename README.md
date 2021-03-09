@@ -20,30 +20,30 @@ https://github.com/cncf/curriculum/
 
 **Domain**	| **Weight**
 ------- | -------------
-**Core Concepts** | 13%
+**1. Core Concepts** | 13%
 • Understand Kubernetes API primitives |  
 • Create and configure basic Pods |  
-**Multi-Container Pods** | 10%  
+**2. Multi-Container Pods** | 10%  
 • Understand Multi-Container Pod design patterns (e .g. ambassador, adapter, sidecar) |  
-**Pod Design** | 20%
+**3. Pod Design** | 20%
 • Understand Deployments and how to perform rolling updates |  
 • Understand Deployments and how to perform rollbacks |  
 • Understand Jobs and CronJobs |  
 • Understand how to use Labels, Selectors, and Annotations || 
-**State Persistence** | 8%  
+**4. State Persistence** | 8%  
 • Understand PersistentVolumeClaims for storage |  
-**Configuration** | 18%
+**5. Configuration** | 18%
 • Understand ConfigMaps |  
 • Understand SecurityContexts |  
 • Define an application’s resource requirements |  
 • Create & consume Secrets |  
 • Understand ServiceAccounts |  
-**Observability** |  18%
+**6. Observability** |  18%
 • Understand LivenessProbes and ReadinessProbes |  
 • Understand container logging |  
 • Understand how to monitor applications in Kubernetes |  
 • Understand debugging in Kubernetes |  
-**Services & Networking** |  13%
+**7. Services & Networking** |  13%
 • Understand Services |  
 • Demonstrate basic understanding of NetworkPolicies |  
 
