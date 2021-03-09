@@ -3,7 +3,7 @@ This is my study guide for the Certified Kubernetes Application Developer (CKAD)
 https://www.cncf.io/certification/ckad/  
 
 <p align="center">
-  <img src="CKAD-logo.png">
+  <img src="CKAD-logo.png" =343x350 {:height="60%" width="60%"}>
 </p>
 <br/>
 
