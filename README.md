@@ -7,8 +7,8 @@ https://www.cncf.io/certification/ckad/
 </p>
 <br/>
 
-**2Hrs | Cost $300 | [Online Exam](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-ckad/)**
-**K8s version 1.20 (Jan 22, 2021)**
+**2Hrs | Cost $300 | [Online Exam](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-ckad/)**  
+**K8s version 1.20 (Jan 22, 2021)**  
  
 <br/>
 
@@ -84,9 +84,6 @@ https://github.com/dgkanatsios/CKAD-exercises
 
 - Benjamin Muschko
 https://github.com/bmuschko/ckad-prep
-
-- stretchcloud  
-https://github.com/stretchcloud/cka-lab-practice
 
 <br/>
 
