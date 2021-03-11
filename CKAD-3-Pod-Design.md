@@ -8,6 +8,7 @@
 [3.3 Understand Jobs and CronJobs](CKAD-3-Pod-Design.md#33-understand-jobs-and-cronjobs) |  
 [3.4 Understand how to use Labels, Selectors, and Annotations](CKAD-3-Pod-Design.md#33-understand-jobs-and-cronjobs) |
 
+---
 ## 3.1 Understand deployments and how to perform rolling update and rollbacks  
 https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/
 
@@ -72,6 +73,7 @@ kubectl rollout status deployment/my-deployment
 kubectl rollout history deployment my-deployment
 ```
 
+---
 ## 3.2 Understand deployments and how to perform rollbacks  
 https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-back-a-deployment
 
@@ -107,9 +109,9 @@ Check rollout status:
 kubectl rollout status deployment my-deployment
 kubectl rollout history deployment my-deployment
 ```
+<br/>
 
-<br/><br/>
-
+---
 ## 3.3 Understand Jobs and CronJobs
 
 ### Jobs  
@@ -196,7 +198,7 @@ spec:
 ```
 <br/>
 
-
+---
 ## 3.4 Understand how to use Labels, Selectors, and Annotations
 
 ### Labels
