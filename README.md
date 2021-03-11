@@ -1,4 +1,5 @@
 # Certified Kubernetes Application Developer (CKAD) Study Guide  
+---
 This is my study guide for the Certified Kubernetes Application Developer (CKAD) exam.  
 https://www.cncf.io/certification/ckad/  
 
@@ -8,10 +9,10 @@ https://www.cncf.io/certification/ckad/
 <br/>
 
 **2Hrs | Cost $300 | [Online Exam](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-ckad/)**  
-**K8s version 1.20 (Jan 22, 2021)**  
- 
-<br/>
+**K8s version 1.20 (Jan 22, 2021)**   
+<br/> 
 
+--- 
 ## CKAD Curriculum  
 
 Updated exam curriculum for v1.20  
@@ -24,8 +25,8 @@ https://github.com/cncf/curriculum/
 • Understand Kubernetes API primitives |  
 • Create and configure basic Pods |  
 **Multi-Container Pods** | 10%  
-• Understand Multi-Container Pod design patterns (e .g ambassador, adapter, sidecar) |  
-**Pod Design** | 20%
+• Understand Multi-Container Pod design patterns (e.g. ambassador, adapter, sidecar) |  
+[**Pod Design**](CKAD-3-Pod-Design.md) | 20%
 • Understand Deployments and how to perform rolling updates |  
 • Understand Deployments and how to perform rollbacks |  
 • Understand Jobs and CronJobs |  
@@ -49,6 +50,7 @@ https://github.com/cncf/curriculum/
 
 <br/>
 
+--- 
 
 ## Kubernetes Documentation
 - Main Documentation page:  
@@ -63,15 +65,16 @@ https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
 - One-page API Reference for Kubernetes v1.20  
 https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/  
   
-
 <br/>
 
+--- 
 ## CKAD Training  
 
 - Great course from "a Cloud Guru":  
 https://learn.acloud.guru/course/certified-kubernetes-application-developer/  
 by William Boyd
 
+--- 
 ## CKAD Lab Exercises
 
 - killer.sh_ 
@@ -87,8 +90,9 @@ https://github.com/bmuschko/ckad-prep
 
 <br/>
 
+--- 
 ## CKAD Exam Tips
-- **Time management is paramount!**
+- **Time management is key!**
   - You have 15-20 performance-based tasks to perform in 2 hours, so an average of 6-8 min per task. Some tasks are easy but some others will take much more time.
   - Get all questions done: 
     - Make sure to go through all 15-20 tasks
@@ -110,8 +114,16 @@ https://github.com/bmuschko/ckad-prep
   - ```k run pod1 --image=nginx $do```
 <br/>  
 
+- Setup VIM to use 2 spaces for a tab by adding these lines to the `~/.vimrc` configuration file:
+  - ```set et``` or ```set expandtab``` (spaces instead of tabs)
+  - ```set ts=2``` or ```set tabstop=2``` (the number of spaces that a tab equates to)
+  - ```set sts=2``` or ```set softtabstop=2``` (the number of spaces to use when expanding tabs)
+  - ```set sw=2``` or ```set shiftwidth=2``` (the number of spaces to use when indenting or de-indenting a line)
+  
+set the expandtab value here and also set tabstop/soft tabstop (ts and sts), and shiftwidth (sw) to 2.
+
 - Use `kubectl` [shortnames](https://kubernetes.io/docs/reference/kubectl/overview/#resource-types): 
-  - `no` `po` `ns` `deploy` `svc` `ing` `ds` `netpol` `pv` `pvc` `sa` `cm` `ep` `sc` ...
+  - `no` `po` `ns` `deploy` `svc` `ing` `ds` `netpol` `pv` `pvc` `sa` `cm` `ep` `sc` `sts` ...
 <br/>
 
 - Use [imperative commands](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#create) whenever possible:
@@ -129,3 +141,5 @@ https://github.com/bmuschko/ckad-prep
 - Use `-w` (i.e. `--watch=true`) to  start watching updates to a particular object.
   - `k get po -w` to watch your pods
 <br/>
+
+---
