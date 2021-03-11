@@ -1,5 +1,5 @@
 # Certified Kubernetes Application Developer (CKAD) Study Guide  
----
+
 This is my study guide for the Certified Kubernetes Application Developer (CKAD) exam.  
 https://www.cncf.io/certification/ckad/  
 
@@ -12,7 +12,6 @@ https://www.cncf.io/certification/ckad/
 **K8s version 1.20 (Jan 22, 2021)**   
 <br/> 
 
---- 
 ## CKAD Curriculum  
 
 Updated exam curriculum for v1.20  
@@ -50,8 +49,6 @@ https://github.com/cncf/curriculum/
 
 <br/>
 
---- 
-
 ## Kubernetes Documentation
 - Main Documentation page:  
 https://kubernetes.io/docs/  
@@ -67,14 +64,12 @@ https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/
   
 <br/>
 
---- 
 ## CKAD Training  
 
 - Great course from "a Cloud Guru":  
 https://learn.acloud.guru/course/certified-kubernetes-application-developer/  
 by William Boyd
 
---- 
 ## CKAD Lab Exercises
 
 - killer.sh_ 
@@ -90,7 +85,6 @@ https://github.com/bmuschko/ckad-prep
 
 <br/>
 
---- 
 ## CKAD Exam Tips
 - **Time management is key!**
   - You have 15-20 performance-based tasks to perform in 2 hours, so an average of 6-8 min per task. Some tasks are easy but some others will take much more time.
