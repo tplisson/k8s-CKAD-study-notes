@@ -1,12 +1,12 @@
 # CKAD - Pod Design  
 
-**Domain**	| **Weight** |
-:------- | :-------------|
-**Pod Design** | 20%
-[3.1 Understand Deployments and how to perform rolling updates](CKAD-3-Pod-Design.md#31-Understand-deployments-and-how-to-perform-rolling-update-and-rollbacks) |  
+**Domain**	| **Weight** |  
+:------- | :-------------|  
+**Pod Design** | 20% |  
+[3.1 Understand Deployments and how to perform rolling updates](CKAD-3-Pod-Design.md#31-Understand-deployments-and-how-to-perform-rolling-update-and-rollbacks) |  |  
 [3.2 Understand Deployments and how to perform rollbacks](CKAD-3-Pod-Design.md#32-understand-deployments-and-how-to-perform-rollbacks) |  
-[3.3 Understand Jobs and CronJobs](CKAD-3-Pod-Design.md#33-understand-jobs-and-cronjobs) |  
-[3.4 Understand how to use Labels, Selectors, and Annotations](CKAD-3-Pod-Design.md#33-understand-jobs-and-cronjobs) |
+[3.3 Understand Jobs and CronJobs](CKAD-3-Pod-Design.md#33-understand-jobs-and-cronjobs) |  |  
+[3.4 Understand how to use Labels, Selectors, and Annotations](CKAD-3-Pod-Design.md#33-understand-jobs-and-cronjobs) |  |  
 
 
 ## 3.1 Understand deployments and how to perform rolling update and rollbacks  
