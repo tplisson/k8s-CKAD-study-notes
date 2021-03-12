@@ -96,7 +96,7 @@ https://github.com/bmuschko/ckad-prep
     - Then go back to each of the flagged tasks afterwards.
 <br/>
 
-- Setup kubectl autocomplete 
+- Setup kubectl alias and autocomplete 
   - ```source <(kubectl completion bash)```
   - ```alias k=kubectl```
   - ```complete -F __start_kubectl k```
