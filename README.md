@@ -104,8 +104,8 @@ https://github.com/bmuschko/ckad-prep
 
 - Setup an shell variable to easily generate resource specs in YAML format:
   - ```export do="--dry-run=client -o yaml"```
-  - then we can run:
-  - ```k run pod1 --image=nginx $do```
+    - then we can run:
+    - ```k run pod1 --image=nginx $do```
 <br/>  
 
 - Setup VIM for yaml by adding these lines to the `~/.vimrc` configuration file:
