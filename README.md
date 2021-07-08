@@ -25,7 +25,7 @@ https://github.com/cncf/curriculum/
 • Create and configure basic Pods |  
 **Multi-Container Pods** | 10%  
 • Understand Multi-Container Pod design patterns (e.g. ambassador, adapter, sidecar) |  
-[**Pod Design**](CKAD-3-Pod-Design.md) | 20%
+[**Pod Design**](CKAD-Pod-Design.md) | 20%
 • Understand Deployments and how to perform rolling updates |  
 • Understand Deployments and how to perform rollbacks |  
 • Understand Jobs and CronJobs |  
