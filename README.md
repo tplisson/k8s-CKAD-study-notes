@@ -1,6 +1,6 @@
-# Certified Kubernetes Application Developer (CKAD) Study Guide  
+# Certified Kubernetes Application Developer (CKAD) Study Notes  
 
-This is my study guide for the Certified Kubernetes Application Developer (CKAD) exam.  
+## Official CKAD exam page
 https://www.cncf.io/certification/ckad/  
 
 <p align="center">
